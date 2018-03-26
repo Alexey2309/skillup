@@ -20,7 +20,7 @@ $aExemples = [
 ];
 var_dump($aExemples);
 
- foreach ($aExemples as $aValue => $aKey){
+ foreach ($aExemples as $aKey  => $aValue){
      echo 'Key: '.$aKey. '--'.'Value: '.$aValue.'<br>';
 
  }
@@ -86,6 +86,11 @@ foreach ($aHashTags as $sHashTag => $sLink){
 
 //unset($aHashTags);
 //var_dump($aHashTags);
+
+
+
+
+
 
 ?>
 
