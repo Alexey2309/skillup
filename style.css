@@ -4,26 +4,41 @@
     /*text-decoration: none;*/
 /*}*/
 
-span {
-    background-color: #0000ff;
-}
+
 
 .logo {
-    height: 41px;
-    width: 200px;
-    background-image: url('skillogram/images/logo.png');
+    height: 100px;
+    width: 1500px;
+    background-image: url('images/logoPhoto.jpg');
+    background-image: ;
     background-repeat: no-repeat;
-    padding-top:14px;
-    padding-left:60px;
-}
+    font-size: 170%;
+    font-family: Aharoni;
+    padding-top: 14px;
+    padding-left:80px;
 
 .clear {
-    clear:both;
+    clear: both;
+}
+
+}
+.styles{
+    font-family: Candara;
+color: darkgrey;
+    font-size: 70%;
+padding-left: 400px;
+}
+.styles1 {
+    font-family: Candara;
+    color: black;
+    font-size: 70%;
+    padding-left: 20px;
 }
 
 .posts-list .post {
     float:left;
-    margin:5px;
+    margin:15px;
+    margin-top: 70px;
 }
 
 
