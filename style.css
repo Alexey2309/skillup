@@ -7,10 +7,9 @@
 
 
 .logo {
-    height: 100px;
-    width: 1500px;
+    height: 50px;
+    width: 1200px;
     background-image: url('images/logoPhoto.jpg');
-    background-image: ;
     background-repeat: no-repeat;
     font-size: 170%;
     font-family: Aharoni;
@@ -24,9 +23,9 @@
 }
 .styles{
     font-family: Candara;
-color: darkgrey;
+    color: darkgrey;
     font-size: 70%;
-padding-left: 400px;
+    padding-left: 400px;
 }
 .styles1 {
     font-family: Candara;
@@ -37,11 +36,26 @@ padding-left: 400px;
 
 .posts-list .post {
     float:left;
-    margin:15px;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-right: 40px;
 }
-
-
+.styles3 {
+    color: white;
+    margin-left: 100px;
+}
+.post-autor {
+    float: left;
+    margin-bottom: 10px;
+}
+.lastTime{
+    font-family: "Times New Roman";
+    font-size: 85%;
+    color: dimgrey;
+}
+.nikName {
+    font-family: Calibri;
+    margin-left: 60px;
+}
 .hashtag_wrapper a {
     margin: 4px;
     padding: 5px;
