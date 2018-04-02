@@ -132,3 +132,18 @@ BODY {
 margin-top: 10px;
 margin-left: 55px;
 }
+
+
+}
+
+var_dump($_GET);
+var_dump($_POST);
+
+?>
+
+<form action="?page=upload" enctype="multipart/form-data" method="post">
+
+    <input type="submit" name="submit" value ="Click me!">
+
+</form>
+

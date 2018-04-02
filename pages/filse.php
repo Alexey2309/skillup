@@ -1,13 +1,5 @@
 <?php
 
-// читать файл
-//$sContents = file_get_contents('counter.txt');
-
-//  Писать в файл
- //file_put_contents('counter.txt','1');
-//Проверить файл еа существование
-//удалить
-
 
 ?>
 
