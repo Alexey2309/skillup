@@ -147,3 +147,28 @@ var_dump($_POST);
 
 </form>
 
+
+
+
+
+
+
+
+
+
+// обращение к базе данных, вставка данных
+
+$stmt=$dbh->prepare('
+INSERT INTO post
+SET
+autor_id = ?,
+photo = ?,
+created_add = ?
+');
+
+$stmt->execute([
+$_GET['autor_id'],
+'image.jpg',
+date('Y-m-d H:i:s'),
+]);
+//
