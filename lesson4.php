@@ -4,7 +4,7 @@ $sName = 'Artem';
 $iAge = 18;
 $fPrice = 5.5;
 $bIsAdmin = true;
-$aHashTags = [
+/* $aHashTags = [
     'cat' => 'about.php',
     'neon' => 'hasTag',
     'color' => 'green',
@@ -18,13 +18,14 @@ $aExemples = [
     'key_3' => 'value 3',
 
 ];
+var_dump($aHashTags);
 var_dump($aExemples);
 
  foreach ($aExemples as $aKey  => $aValue){
      echo 'Key: '.$aKey. '--'.'Value: '.$aValue.'<br>';
 
  }
-
+*/
 $aUser = [
 
  'info_common' => [
@@ -37,20 +38,13 @@ $aUser = [
         'phone' => '11111',
         'address' => 'Vostaniya St.'
     ],
-    'city' => 'msk',
 ];
 
- foreach ($aUser as $sKey => $aInfo){
+ foreach ($aUser as $sKey => $aInfo) {
      echo $sKey . '<br>';
-     if (is_string($aInfo)) {
-         break;
-     }
-     foreach ($aInfo as $sInfoKey => $sInfo){
+     foreach ($aInfo as $sInfoKey => $sInfo) {
 
-         echo '----'.$sInfoKey.'' . $sInfo. '<br>';
-         if (!empty($aUser[$sInfoKey])) {
-             echo '<br>'. $aUser[$sInfoKey] . '<br>';
-         }
+         echo '----' . $sInfoKey . '<br>';
      }
  }
 
