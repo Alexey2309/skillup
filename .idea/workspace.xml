@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fde8ebe9-b594-4f79-b598-26cf2257cc6b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/1111.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/homeWork/data.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/homeWork/function.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/homeWork/skillogram.php" afterPath="$PROJECT_DIR$/homeWork/skillogram.php" />
-      <change beforePath="$PROJECT_DIR$/homeWork/style.css" afterPath="$PROJECT_DIR$/homeWork/style.css" />
-      <change beforePath="$PROJECT_DIR$/lesson4.php" afterPath="$PROJECT_DIR$/lesson4.php" />
+      <change beforePath="$PROJECT_DIR$/1111.php" afterPath="$PROJECT_DIR$/1111.php" />
+      <change beforePath="$PROJECT_DIR$/counter.txt" afterPath="$PROJECT_DIR$/counter.txt" />
+      <change beforePath="$PROJECT_DIR$/lesson7.php" afterPath="$PROJECT_DIR$/lesson7.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,10 +31,11 @@
       <file leaf-file-name="lesson7.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
-                <marker date="1522771956428" expanded="true" signature="317:352" ph="SELECT * FRO... post" />
+                <marker date="1524675030353" expanded="true" signature="347:410" ph="INSERT INTO post... " />
+                <marker date="1524675030353" expanded="true" signature="558:593" ph="SELECT * FRO... post" />
               </folding>
             </state>
           </provider>
@@ -231,12 +229,12 @@
       <workItem from="1522489943462" duration="24774000" />
       <workItem from="1522771892939" duration="55323000" />
       <workItem from="1524594612972" duration="598000" />
-      <workItem from="1524674599587" duration="8000" />
+      <workItem from="1524674599587" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111738000" />
+    <option name="totallyTimeSpent" value="112854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
@@ -330,7 +328,8 @@
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1522771956428" expanded="true" signature="317:352" ph="SELECT * FRO... post" />
+            <marker date="1524675030353" expanded="true" signature="347:410" ph="INSERT INTO post... " />
+            <marker date="1524675030353" expanded="true" signature="558:593" ph="SELECT * FRO... post" />
           </folding>
         </state>
       </provider>
@@ -350,7 +349,8 @@
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1522771956428" expanded="true" signature="317:352" ph="SELECT * FRO... post" />
+            <marker date="1524675030353" expanded="true" signature="347:410" ph="INSERT INTO post... " />
+            <marker date="1524675030353" expanded="true" signature="558:593" ph="SELECT * FRO... post" />
           </folding>
         </state>
       </provider>
@@ -698,10 +698,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1522771956428" expanded="true" signature="317:352" ph="SELECT * FRO... post" />
+            <marker date="1524675030353" expanded="true" signature="347:410" ph="INSERT INTO post... " />
+            <marker date="1524675030353" expanded="true" signature="558:593" ph="SELECT * FRO... post" />
           </folding>
         </state>
       </provider>

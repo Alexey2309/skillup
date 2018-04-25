@@ -149,6 +149,7 @@ var_dump($_POST);
 
 
 
+<<<<<<< HEAD
 //'nikName' => ['@migli'],
 /*'lastTime' => ['два часа назад'],
 'Photo' => ['../images/Post1.jpg'],
@@ -386,3 +387,28 @@ var_dump($_POST);
         </div>
     </div>
 </div>
+=======
+
+
+
+
+
+
+
+// обращение к базе данных, вставка данных
+
+$stmt=$dbh->prepare('
+INSERT INTO post
+SET
+autor_id = ?,
+photo = ?,
+created_add = ?
+');
+
+$stmt->execute([
+$_GET['autor_id'],
+'image.jpg',
+date('Y-m-d H:i:s'),
+]);
+//
+>>>>>>> 136b6fece4d6dd4e0d9bfc2a53bc16c1324c2cc5
